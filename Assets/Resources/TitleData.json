@@ -1,0 +1,1728 @@
+{
+	"RemoteConfig": [
+		{
+			"Key": "min_android_version",
+			"Value": "1.1"
+		},
+		{
+			"Key": "android_title_data_1_1",
+			"Value": "1"
+		},
+		{
+			"Key": "android_title_data_2",
+			"Value": "2"
+		},
+		{
+			"Key": "android_title_data_3",
+			"Value": "3"
+		},
+		{
+			"Key": "android_title_data_4",
+			"Value": "4"
+		},
+		{
+			"Key": "android_title_data_5",
+			"Value": "5"
+		},
+		{
+			"Key": "android_title_data_6",
+			"Value": "6"
+		},
+		{
+			"Key": "android_title_data_7",
+			"Value": "7"
+		},
+		{
+			"Key": "android_title_data_8",
+			"Value": "8"
+		},
+		{
+			"Key": "android_title_data_9",
+			"Value": "9"
+		}
+	],
+	"android_url": "https://play.google.com/store/apps/details?id={PACKAGE_NAME}",
+	"ios_url": "https://apps.apple.com/app/{APP_ID}",
+	"title_data_version": "6",
+	"offers": {
+		"Offers": []
+	},
+	"local_notifications": {
+		"Notifications": [],
+		"CancelAllOnStart": "TRUE"
+	},
+	"game": {
+		"StartingBalance": "100",
+		"MinOfflineTime": "15"
+	},
+	"levels": {
+		"LevelBase": "1000",
+		"LevelGrowth": "9",
+		"HardResetLevelBase": "200000",
+		"HardResetLevelGrowth": "20",
+		"LevelRewards": [
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			},
+			{
+				"CurrencyKey": "hard",
+				"Amount": 10,
+				"$type": "BigfootSdk.Backend.CurrencyTransaction"
+			}
+		]
+	},
+	"generators": {
+		"MaxAmountOfGenerators": "2000",
+		"Generators": [
+			{
+				"Name": "generator_1",
+				"BaseBonus": "5",
+				"LevelUpBonus": "5",
+				"Time": "12",
+				"CostMultiplier": "1.07",
+				"WaitForGeneration": "FALSE",
+				"WaitForCollection": "FALSE",
+				"UpgradeCost": {
+					"Amount": 10,
+					"ResourceKey": "points",
+					"$type": "BigfootSdk.Core.Idle.ResourceCost"
+				},
+				"Ranks": [
+					{
+						"RequiredAmount": "25",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					}
+				],
+				"CustomData": {},
+				"Tag": "main"
+			},
+			{
+				"Name": "generator_2",
+				"BaseBonus": "5",
+				"LevelUpBonus": "5",
+				"Time": "12",
+				"CostMultiplier": "1.07",
+				"WaitForGeneration": "TRUE",
+				"WaitForCollection": "TRUE",
+				"UpgradeCost": {
+					"Amount": 10,
+					"ResourceKey": "points",
+					"$type": "BigfootSdk.Core.Idle.ResourceCost"
+				},
+				"Ranks": [
+					{
+						"RequiredAmount": "25",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					}
+				],
+				"CustomData": {},
+				"Tag": "main"
+			},
+			{
+				"Name": "generator_3",
+				"BaseBonus": "5",
+				"LevelUpBonus": "5",
+				"Time": "12",
+				"CostMultiplier": "1.07",
+				"WaitForGeneration": "TRUE",
+				"WaitForCollection": "FALSE",
+				"UpgradeCost": {
+					"Amount": 10,
+					"ResourceKey": "points",
+					"$type": "BigfootSdk.Core.Idle.ResourceCost"
+				},
+				"Ranks": [
+					{
+						"RequiredAmount": "25",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					}
+				],
+				"CustomData": {},
+				"Tag": "main"
+			},
+			{
+				"Name": "generator_4",
+				"BaseBonus": "5",
+				"LevelUpBonus": "5",
+				"Time": "12",
+				"CostMultiplier": "1.07",
+				"WaitForGeneration": "FALSE",
+				"WaitForCollection": "TRUE",
+				"UpgradeCost": {
+					"Amount": 10,
+					"ResourceKey": "points",
+					"$type": "BigfootSdk.Core.Idle.ResourceCost"
+				},
+				"Ranks": [
+					{
+						"RequiredAmount": "25",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					}
+				],
+				"CustomData": {},
+				"Tag": "main"
+			}
+		]
+	},
+	"shop": {
+		"ShopItems": [
+			{
+				"Id": "offer_1",
+				"PrefabName": "offer_carousel",
+				"Data": "CarouselOffer"
+			},
+			{
+				"Id": "offer_2",
+				"PrefabName": "offer_carousel",
+				"Data": "CarouselOffer"
+			},
+			{
+				"Id": "offer_3",
+				"PrefabName": "offer_carousel",
+				"Data": "CarouselOffer"
+			},
+			{
+				"Id": "offer_4",
+				"PrefabName": "offer_carousel",
+				"Data": "CarouselOffer"
+			},
+			{
+				"Id": "hard_pack_1",
+				"PrefabName": "hard_currency",
+				"Data": "MultipleShopGridItem",
+				"ItemName": "hard_pack"
+			},
+			{
+				"Id": "hard_pack_2",
+				"PrefabName": "hard_currency",
+				"Data": "MultipleShopGridItem",
+				"ItemName": "hard_pack"
+			},
+			{
+				"Id": "hard_pack_3",
+				"PrefabName": "hard_currency",
+				"Data": "MultipleShopGridItem",
+				"ItemName": "hard_pack"
+			},
+			{
+				"Id": "hard_pack_4",
+				"PrefabName": "hard_currency",
+				"Data": "MultipleShopGridItem",
+				"ItemName": "hard_pack"
+			},
+			{
+				"Id": "hard_pack_5",
+				"PrefabName": "hard_currency",
+				"Data": "MultipleShopGridItem",
+				"ItemName": "hard_pack"
+			},
+			{
+				"Id": "soft_pack_1",
+				"PrefabName": "soft_currency",
+				"Data": "MultipleShopGridItem"
+			},
+			{
+				"Id": "soft_pack_2",
+				"PrefabName": "soft_currency",
+				"Data": "MultipleShopGridItem"
+			},
+			{
+				"Id": "vip_1",
+				"PrefabName": "vip_subscription"
+			}
+		],
+		"ShopSections": [
+			{
+				"Id": "offer_carousel",
+				"PrefabName": "CarouselShopSection"
+			},
+			{
+				"Id": "hard_currency",
+				"PrefabName": "MultipleShopSection"
+			},
+			{
+				"Id": "soft_currency",
+				"PrefabName": "MultipleShopSection"
+			},
+			{
+				"Id": "vip_subscription",
+				"PrefabName": "SingleShopSection"
+			}
+		]
+	},
+	"items": [
+		{
+			"ItemName": "bundle_01",
+			"IsStackable": "FALSE",
+			"$type": "BigfootSdk.Backend.BundleItemModel",
+			"Items": [
+				{
+					"Amount": 1,
+					"ItemName": "skin_01",
+					"SubType": "Item",
+					"$type": "BigfootSdk.Backend.DropableItemModel"
+				},
+				{
+					"Amount": 100,
+					"CurrencyKey": "soft",
+					"$type": "BigfootSdk.Backend.DropableCurrencyModel"
+				},
+				{
+					"Amount": 7,
+					"ItemName": "basicItem_01",
+					"SubType": "Item",
+					"$type": "BigfootSdk.Backend.DropableItemModel"
+				}
+			]
+		},
+		{
+			"ItemName": "epic_droptable",
+			"IsStackable": "FALSE",
+			"$type": "BigfootSdk.Backend.DroptableItemModel",
+			"Data": {
+				"level": 3,
+				"exp": 100
+			},
+			"Items": [
+				{
+					"ItemName": "skin_01",
+					"Weight": 0.00001,
+					"SubType": "Item",
+					"$type": "BigfootSdk.Backend.DropableItemModel"
+				}
+			]
+		},
+		{
+			"ItemName": "skin_01",
+			"IsStackable": "TRUE",
+			"$type": "BigfootSdk.Backend.BaseItemModel",
+			"Data": {
+				"level": 3,
+				"exp": 100
+			}
+		},
+		{
+			"ItemName": "hard_pack",
+			"IsStackable": "FALSE",
+			"Cost": {
+				"Amount": 0,
+				"CurrencyKey": "hard",
+				"$type": "BigfootSdk.Backend.CurrencyCost"
+			},
+			"$type": "BigfootSdk.Backend.BundleItemModel",
+			"Items": [
+				{
+					"Amount": 500,
+					"CurrencyKey": "hard",
+					"$type": "BigfootSdk.Backend.DropableCurrencyModel"
+				}
+			]
+		},
+		{
+			"ItemName": "basicItem_01",
+			"IsStackable": "TRUE",
+			"$type": "BigfootSdk.Backend.BaseItemModel",
+			"Modifiers": [
+				{
+					"Multiplier": 0.5,
+					"$type": "BigfootSdk.SpecificGeneratorCostMultiplier",
+					"Tag": "Rank"
+				},
+				{
+					"Multiplier": 0.5,
+					"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+					"Tag": "Rank"
+				},
+				{
+					"Multiplier": 2,
+					"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+					"Tag": "Rank"
+				},
+				{
+					"Multiplier": 0.5,
+					"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+					"Tag": "Rank"
+				},
+				{
+					"Multiplier": 2,
+					"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+					"Tag": "Rank"
+				}
+			]
+		}
+	],
+	"soft_reset": {
+		"SoftResetEffects": [
+			{
+				"Group": "SoftReset",
+				"Multiplier": 0.05,
+				"$type": "BigfootSdk.AllGeneratorBonusMultiplier",
+				"Tag": "SoftReset"
+			}
+		],
+		"SceneName": "Idle"
+	},
+	"calendar": {
+		"Calendars": [
+			{
+				"CalendarName": "Calendar_01",
+				"Prerequisites": [
+					{"$type": "BigfootSdk.CounterPrereq, BigfootSdk", "Key": "SessionsAmount", "Amount": 1, "Comparison": "gt"} 
+				],
+				"CalendarCourses": {
+					"Courses": [
+						{
+							"Id": 1,
+							"BaseRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"VipRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"MinClaimForBonus": 3,
+							"CompletionBaseRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 10,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							},
+							"CompletionVipRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 20,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							}
+						},
+						{
+							"Id": 2,
+							"BaseRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"VipRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"MinClaimForBonus": 3,
+							"CompletionBaseRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 10,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							},
+							"CompletionVipRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 20,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							}
+						},
+						{
+							"Id": 3,
+							"BaseRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"VipRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"MinClaimForBonus": 3,
+							"CompletionBaseRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 10,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							},
+							"CompletionVipRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 20,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"CalendarName": "Calendar_02",
+				"Prerequisites": [
+
+					{"$type": "BigfootSdk.CounterPrereq, BigfootSdk", "Key": "SessionsAmount", "Amount": 1, "Comparison": "gt"}
+
+				],
+				"CalendarCourses": {
+					"Courses": [
+						{
+							"Id": 1,
+							"BaseRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"VipRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"MinClaimForBonus": 3,
+							"CompletionBaseRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 10,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							},
+							"CompletionVipRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 20,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							}
+						},
+						{
+							"Id": 2,
+							"BaseRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"VipRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"MinClaimForBonus": 3,
+							"CompletionBaseRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 10,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							},
+							"CompletionVipRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 20,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							}
+						},
+						{
+							"Id": 3,
+							"BaseRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"VipRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"MinClaimForBonus": 3,
+							"CompletionBaseRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 10,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							},
+							"CompletionVipRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 20,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"CalendarName": "Calendar_03",
+				"Prerequisites": [
+					{"$type": "BigfootSdk.CounterPrereq, BigfootSdk", "Key": "SessionsAmount", "Amount": 1, "Comparison": "gt"}
+				],
+				"CalendarCourses": {
+					"Courses": [
+						{
+							"Id": 1,
+							"BaseRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"VipRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"MinClaimForBonus": 3,
+							"CompletionBaseRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 10,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							},
+							"CompletionVipRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 20,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							}
+						},
+						{
+							"Id": 2,
+							"BaseRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"VipRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"MinClaimForBonus": 3,
+							"CompletionBaseRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 10,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							},
+							"CompletionVipRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 20,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							}
+						},
+						{
+							"Id": 3,
+							"BaseRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"VipRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"MinClaimForBonus": 3,
+							"CompletionBaseRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 10,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							},
+							"CompletionVipRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 20,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"CalendarName": "Calendar_04",
+				"Prerequisites": [
+					{"$type": "BigfootSdk.CounterPrereq, BigfootSdk", "Key": "SessionsAmount", "Amount": 1, "Comparison": "gt"}
+				],
+				"CalendarCourses": {
+					"Courses": [
+						{
+							"Id": 1,
+							"BaseRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"VipRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"MinClaimForBonus": 3,
+							"CompletionBaseRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 10,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							},
+							"CompletionVipRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 20,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							}
+						},
+						{
+							"Id": 2,
+							"BaseRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"VipRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"MinClaimForBonus": 3,
+							"CompletionBaseRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 10,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							},
+							"CompletionVipRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 20,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							}
+						},
+						{
+							"Id": 3,
+							"BaseRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"VipRewards": [
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								},
+								{
+									"Amount": 20,
+									"CurrencyKey": "hard",
+									"$type": "BigfootSdk.Backend.CurrencyTransaction"
+								}
+							],
+							"MinClaimForBonus": 3,
+							"CompletionBaseRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 10,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							},
+							"CompletionVipRewards": {
+								"$type": "BigfootSdk.Backend.CompositeTransaction",
+								"Transactions": [
+									{
+										"Amount": 20,
+										"CurrencyKey": "hard",
+										"$type": "BigfootSdk.Backend.CurrencyTransaction"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		],
+		"UnlockPrerequisites": [
+			{
+				"$type": "BigfootSdk.IdleLevelPrereq",
+				"Level": 4,
+				"Comparison": "ge"
+			},
+			{
+				"$type": "BigfootSdk.TutorialFinishedPrereq",
+				"IsFinished": "true",
+				"TutorialId": "FTUE"
+			}
+		],
+		"SendLocalNotifications": "FALSE",
+		"CanMissDays": "FALSE"
+	}
+}

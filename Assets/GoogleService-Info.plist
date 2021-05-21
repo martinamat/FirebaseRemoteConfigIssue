@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>264831173243-esnk07793u09gov7n7boqi2fkioqdj7i.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.264831173243-esnk07793u09gov7n7boqi2fkioqdj7i</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBV4ZCHc-H1NYy8KwF16D-ze3Fz3aA-rzM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>264831173243</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bigfoot.sdk</string>
+	<key>PROJECT_ID</key>
+	<string>bigfoot-sdk</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bigfoot-sdk.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:264831173243:ios:d6dc48b1d3ab1f31fed8de</string>
+	<key>DATABASE_URL</key>
+	<string>https://bigfoot-sdk.firebaseio.com</string>
+</dict>
+</plist>
